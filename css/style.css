@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Arima:wght@100;300;400&display=swap');
+
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CORPO */
+header{
+    width: 100%;
+    background-color: black;
+}
+
+body{
+    background: #0A0A0A;
+}
+
+
+/* HEADER */
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu-principal{
+    display: flex;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;  
+    gap: 100px;
+}
+
+.menu-text{
+    list-style: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.menu-text:hover {
+    color:#FCF6B1;
+    font-weight: 20;
+    cursor: pointer;
+}
+
+/* PRINCIPAL */
+main{
+    margin-bottom: 48px;
+    border-top: 3px solid #FCF6B1;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid #FCF6B1;
+    margin-bottom: 7em;
+    padding-bottom: 2em;
+}
+
+.conteudo-principal img{
+    width: 800px;
+}
+
+.principal-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+    margin-right: 5em;
+}
+.principal-text-title{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 800;
+}
+
+.principal-text p{
+    font-size: 20px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.btn-agendar button{
+    color:black;
+    font-weight: 1000;
+    font-family: 'Anek Latin', sans-serif;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1em;
+}
+
+.btn-agendar button:hover {
+    color: #fcf6b1;
+    background-color: #3F3F37;
+    cursor: pointer;
+}
+
+/* PRINCIPAL 2 */
+.conteudo-secundario{
+    background-color: #fcf6b1;
+    margin-bottom: 3em;
+   
+    margin-left: 5em;
+    margin-right: 5em;
+    border-radius: 1%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 2em;
+}
+
+/* BLOCOS */
+.bloco-1{
+    display: flex;
+    padding-right: 3em;
+    padding-left: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-2{
+    display: flex;
+    padding-right: 3em;
+    padding-left: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ESTILO CARDS */
+.card {
+    background-color:#8D99AE;
+    width: 15em;
+    height: 17em;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    height: 120px;
+    width: 80%;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto a {
+    margin-top: 1em;
+    color:black;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.texto a:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    color: #3F3F37;
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+}
+
+.valor p {
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Anek Latin', sans-serif;
+}
+.btn-comprar {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btn-comprar button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 0.8em;
+    color:white;
+    background-color: #000000;
+}
+
+.btn-comprar button:hover {
+    color: #8D99AE;
+    background-color:#c6c9ce;
+    cursor: pointer;
+}
+
+
+.conteudo-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-bottom: 30px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#sobre-nos{
+    padding-top: 1em;
+    color:#FFFFFF;
+    border-top: 0.4px solid rgb(255, 255, 255);
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.conteudo-terciario img{
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+.conteudo-terciario p{
+    color:#FFFFFF;
+    padding-top: 7px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    color:#FFFFFF;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 15px;
+}
+
+/* eslização do rodapé */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1.5em;
+    border-top: 3px solid #FCF6B1;
+    padding-top: 1em;
+}
+
+.nav-bar h2{
+    font-family: 'Arima', cursive;
+    font-size: 15px;
+    font-weight: 800;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.nav-bar ul{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Anek Latin', sans-serif;
+    list-style: none;
+}
+
+.nav-bar a{
+    color: #FFFFFF;
+}
+
+.nav-bar a:hover{
+    color: #3F3F37;
+    cursor: pointer;
+    transition: none;
+}
+
+/*nav-bar 2 do footer*/
+
+.nav-bar-2 h2{
+    font-family: 'Arima', cursive;
+    font-size: 15px;
+    font-weight: 800;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.nav-bar-2 ul{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.nav-bar-2 li{
+    list-style: none;
+    color: #FFFFFF;
+}
+.nav-bar-2:hover{
+    color: #3F3F37;
+    cursor: pointer;
+    transition: none;
+}
+.copy{
+    display: flex;
+    color: #c6c9ce;
+    align-self: flex-end;
+    font-family: 'Anek Latin', sans-serif;
+}
+
